@@ -1,27 +1,21 @@
 {
-  "name": "front-end-template",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "bb-practicum-team-1-back",
+  "version": "1.0.0",
+  "description": "Back-End Repo for Team 1 of Baboon/Bald Eagle Practicum",
+  "main": "app.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "dev": "nodemon src/server.js"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "axios": "^1.6.7",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-favicon": "^2.0.4",
+    "mongoose": "^8.12.2",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "@types/react": "^18.2.56",
-    "@types/react-dom": "^18.2.19",
-    "@vitejs/plugin-react": "^4.2.1",
-    "eslint": "^8.56.0",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.5",
-    "vite": "^5.1.4"
+    "nodemon": "^3.1.9"
   }
 }
